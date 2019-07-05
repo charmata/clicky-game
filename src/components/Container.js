@@ -4,7 +4,9 @@ import Game from "./Game";
 
 class Container extends Component {
   state = {
-    images: []
+    images: [],
+    score: 0,
+    topScore: 0
   };
 
   render() {
